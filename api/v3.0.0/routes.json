@@ -1751,6 +1751,15 @@
             }
         },
 
+        "delete": {
+            "url": "/repos/:user/:repo",
+            "method": "DELETE",
+            "params": {
+                "$user": null,
+                "$repo": null
+            }
+        },
+
         "merge": {
             "url": "/repos/:user/:repo/merges",
             "method": "POST",
